@@ -15,7 +15,7 @@ const ContactPage = () => {
       <div className="text-center text-5xl font-semibold py-4 uppercase">
         contact
       </div>
-      <div className="flex flex-col items-center pt-[5vh] gap-3">
+      <div className="flex flex-col items-center py-[5vh] gap-3">
         <div>
           <img
             src={bioImg}
