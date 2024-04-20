@@ -37,7 +37,7 @@ const ProjectPage = () => {
       <div className="text-center text-[#31572C] pt-6 text-5xl font-bold">
         Projects
       </div>
-      <div className="p-[1rem] md:p-[4rem] flex flex-col gap-[3rem]">
+      <div className="pt-[2rem] pb-[4rem] px-[1rem] md:p-[4rem] flex flex-col gap-[2rem]">
         {projects.map((val, indx) => (
           <Project
             key={indx}
